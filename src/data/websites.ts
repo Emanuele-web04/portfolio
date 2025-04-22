@@ -13,7 +13,7 @@ export const websites: Project[] = [
         title: "CryptoMarket",
         description: "Know how the crypto market is going with the latest values.",
         release: "March 2025",
-        link: "https://apps.apple.com/it/app/tidyspace-links-photos-docs/id6504195620?l=en-GB"
+        link: "https://cryptomrkt.netlify.app/"
     },
     {
         image: "/placeholder.png",
