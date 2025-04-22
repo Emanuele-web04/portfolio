@@ -1,7 +1,7 @@
-import { Geist, Geist_Mono, Space_Grotesk, Inter } from "next/font/google";
+import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 
-export const geistSans = Geist({
-    variable: "--font-geist-sans",
+export const inter = Geist({
+    variable: "--font-inter",
     subsets: ["latin"],
   });
   
@@ -13,9 +13,4 @@ export const geistMono = Geist_Mono({
 export const spaceGrotesk = Space_Grotesk({
     variable: "--font-space",
     subsets: ["latin"]
-})
-
-export const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"]
 })

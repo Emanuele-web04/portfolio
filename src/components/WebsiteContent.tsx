@@ -40,7 +40,7 @@ const WebsiteContent = () => {
                 </p>
               )}
             </div>
-            <h4 className="font-inter text-sm tracking-tight">
+            <h4 className="font-inter text-xs md:text-smtracking-tight">
               {web.description}
             </h4>
           </Link>
