@@ -28,7 +28,7 @@ const WebsiteContent = () => {
                   className="rounded-xl"
                 />
                 <div className="flex flex-col">
-                  <h3 className="text-xl font-bold">{web.title}</h3>
+                  <h3 className="md:text-xl font-bold">{web.title}</h3>
                   <h4 className="text-gray-600 text-xs">{web.release}</h4>
                 </div>
               </div>
