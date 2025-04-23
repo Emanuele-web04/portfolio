@@ -47,6 +47,7 @@ export const apps: Project[] = [
         image: "/khrona.png",
         title: "Khrona",
         description: "Keep track of your life. Understand how your days are going. Spot patterns in your days, mood and journal. Get better.",
-        release: "Soon",
+        release: "23 April 2025",
+        link: "https://apps.apple.com/it/app/khrona-get-your-life-together/id6744410827?l=en-GB"
     },
 ]
