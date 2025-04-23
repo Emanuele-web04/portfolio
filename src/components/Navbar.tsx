@@ -12,7 +12,7 @@ const Navbar = () => {
           height={100}
           src={"/profilepic.png"}
           alt=""
-          className="w-[100px] h-[100px] md:w-[150px] md:h-[150px] rounded-2xl shadow-lg ring-3 ring-neutral-200 object-contain"
+          className="w-[100px] h-[100px] md:w-[180px] md:h-[180px] rounded-2xl shadow-lg ring-3 ring-neutral-200 object-contain"
         />
         <div className="flex flex-col h-full justify-between space-y-3">
           <div className="flex flex-col space-y-3">
