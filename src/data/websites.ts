@@ -49,5 +49,12 @@ export const websites: Project[] = [
         description: "My personal blog.",
         release: "17 March 2025",
         link: "https://dp-blog-webapp.vercel.app/"
+    },
+    {
+        image: "/khrona.png",
+        title: "Khrona | The iOS App",
+        description: "Khrona landing page.",
+        release: "23 April 2025",
+        link: "https://khrona-website.vercel.app/"
     }
 ]
