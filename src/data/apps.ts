@@ -50,4 +50,11 @@ export const apps: Project[] = [
         release: "23 April 2025",
         link: "https://apps.apple.com/it/app/khrona-get-your-life-together/id6744410827?l=en-GB"
     },
+    {
+        image: "/solotype.png",
+        title: "SoloType",
+        description: "A fun way to interact with youself and your other personality. Reply to yourself, create chats, and store messages and thoughts that come to mind.",
+        release: "2 May 2025",
+        link: "https://apps.apple.com/it/app/solotype-chat-with-yourself/id6745232215?l=en-GB"
+    },
 ]
