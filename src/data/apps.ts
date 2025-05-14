@@ -57,4 +57,11 @@ export const apps: Project[] = [
         release: "2 May 2025",
         link: "https://apps.apple.com/it/app/solotype-chat-with-yourself/id6745232215?l=en-GB"
     },
+    {
+        image: "/lystra.png",
+        title: "Lystra",
+        description: "A minimal app to add things on the fly. Thoughts and Todos with recordings speech to text.",
+        release: "Soon",
+        link: ""
+    },
 ]
