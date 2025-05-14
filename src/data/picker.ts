@@ -3,6 +3,7 @@ import { IconType } from "react-icons"
 import { FaAppStore } from "react-icons/fa";
 import { CiGlobe } from "react-icons/ci"
 import { BsSuitcaseLg } from "react-icons/bs";
+import { IoHammerOutline } from "react-icons/io5";
 
 type PickerElement = {
     title: string
@@ -25,5 +26,10 @@ export const routePicker: PickerElement[] = [
         title: "Experience",
         icon: BsSuitcaseLg,
         route: "experience"
+    },
+    {
+        title: "Skills",
+        icon: IoHammerOutline,
+        route: "skills"
     },
 ]

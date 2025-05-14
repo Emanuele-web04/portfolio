@@ -61,7 +61,7 @@ export const apps: Project[] = [
         image: "/lystra.png",
         title: "Lystra",
         description: "A minimal app to add things on the fly. Thoughts and Todos with recordings speech to text.",
-        release: "Soon",
-        link: ""
+        release: "14 May 2025",
+        link: "https://apps.apple.com/app/lystra/id6745784928"
     },
 ]

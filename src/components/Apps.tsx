@@ -9,6 +9,7 @@ import ExperienceContent from "./ExperienceContent";
 import { socials } from "@/data/social";
 import Link from "next/link";
 import { LuMail } from "react-icons/lu";
+import SkillsContent from "./Skills";
 
 const Apps = () => {
   const router = useRouter();
@@ -28,6 +29,9 @@ const Apps = () => {
       case "experience":
         return <ExperienceContent />;
       case "/":
+        return <AppsContent/>
+        case "skills":
+          return <SkillsContent/>
       default:
         return <AppsContent />;
     }
@@ -58,7 +62,7 @@ const Apps = () => {
           </Link>
         </li>
       </ul>
-      <div className="flex items-center space-x-3 sm:space-x-5">
+      <div className="flex items-center sm:space-x-4">
         {routePicker.map((rp, i) => {
           const isActive = rp.route === tab;
           const Icon = rp.icon;
