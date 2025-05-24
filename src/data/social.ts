@@ -12,7 +12,7 @@ type Social = {
 export const socials: Social[] = [
     {
         icon: FaXTwitter,
-        link: "https://x.com/emadpt"
+        link: "https://x.com/emanueledpt"
     },
     {
         icon: IoLogoGithub,
