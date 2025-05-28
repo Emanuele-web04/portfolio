@@ -56,5 +56,12 @@ export const websites: Project[] = [
         description: "Khrona landing page.",
         release: "23 April 2025",
         link: "https://khrona-website.vercel.app/"
-    }
+    },
+    {
+        image: "/dpsttt.png",
+        title: "DP's Templates",
+        description: "Next.js & SwiftUI Components for indie developers.",
+        release: "28 May 2025",
+        link: "https://waitlist.dpstemplates.com"
+    },
 ]
